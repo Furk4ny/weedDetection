@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['crop', 'weed']
+
+roboflow:
+  workspace: agrobotprojects
+  project: crop-and-weed-identifier
+  version: 6
+  license: Public Domain
+  url: https://universe.roboflow.com/agrobotprojects/crop-and-weed-identifier/dataset/6
